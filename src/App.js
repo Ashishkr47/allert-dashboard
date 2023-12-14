@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AlertList from './components/AlertList';
 import SearchBar from './components/SearchBar';
 import './styles.css';
+import data from './data.json';  
 
 const App = () => {
   const [alerts, setAlerts] = useState([]);
@@ -9,14 +10,9 @@ const App = () => {
   const [showSearchResults, setShowSearchResults] = useState(false);
 
   useEffect(() => {
-    // Fetch data from the API
-    fetch('https://mocki.io/v1/01f02f72-88ca-492b-9ee7-8b027f79056c')
-      .then(response => response.json())
-      .then(data => {
-        setAlerts(data);
-        setFilteredAlerts(data);
-      })
-      .catch(error => console.error(error));
+    
+    setAlerts(data);
+    setFilteredAlerts(data);
   }, []);
 
   const handleFreeTextSearch = (searchQuery) => {
@@ -47,7 +43,7 @@ const App = () => {
 
   const handleSearch = (searchData) => {
     const { freeText, vehicleNumber, dateRange } = searchData;
-  
+
     if (freeText !== '') {
       handleFreeTextSearch(freeText);
     } else if (vehicleNumber !== '') {
@@ -55,16 +51,14 @@ const App = () => {
     } else if (dateRange.start !== '' && dateRange.end !== '') {
       handleSearchByDateRange(dateRange.start, dateRange.end);
     } else {
-      
-      setFilteredAlerts(alerts);
-      setShowSearchResults(false); 
+      setFilteredAlerts(data);  
+      setShowSearchResults(false);
     }
   };
 
   const markAsFalseAlarm = (alertId) => {
     const updatedAlerts = alerts.map(alert => {
       if (alert.id === alertId) {
-       
         return {
           ...alert,
           markedAsFalse: !alert.markedAsFalse
@@ -79,11 +73,11 @@ const App = () => {
   return (
     <div className="App">
       <h1>Alerts Dashboard</h1>
-        {showSearchResults ? (
-      <button onClick={() => window.location.reload()}>Back (Refresh)</button>
-    ) : (
-  <SearchBar onSearch={handleSearch} />
-)}
+      {showSearchResults ? (
+        <button onClick={() => window.location.reload()}>Back</button>
+      ) : (
+        <SearchBar onSearch={handleSearch} />
+      )}
 
       {showSearchResults ? (
         <div className="search-results">
@@ -102,3 +96,4 @@ const App = () => {
 };
 
 export default App;
+
