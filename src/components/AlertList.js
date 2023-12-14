@@ -1,3 +1,5 @@
+// components/AlertList.js
+
 import React from 'react';
 import Alert from './Alert';
 
@@ -13,5 +15,7 @@ const AlertList = ({ alerts, markAsFalseAlarm }) => {
 };
 
 export default AlertList;
+
+
 
 
