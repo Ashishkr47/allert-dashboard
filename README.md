@@ -11,7 +11,7 @@ To run this project locally, follow these steps:
 
 2. cd alerts-dashboard
 3. Install Dependencies 
-   npm install i
+   npm i
 4. Run code
    npm start
    
