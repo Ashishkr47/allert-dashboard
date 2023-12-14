@@ -1,0 +1,63 @@
+/* Updated styles */
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .alert-list {
+    width: 100%;
+  }
+  
+  /* Add new styles */
+  .top-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .bottom-line {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .alert-row {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .alert-details {
+    flex-grow: 1;
+  }
+  
+  .false-alarm-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .false-alarm-button {
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .false-alarm-button.blue {
+    background-color: blue;
+    color: white;
+  }
+  .false-alarm-button {
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .false-alarm-button.marked {
+    background-color: blue;
+    color: white;
+  }
+  

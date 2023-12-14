@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#alertsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.alert-section {
+  grid-column: span 3;
+  text-align: center;
+}
+
+.alert-card {
+  width: 100%;
+  height: 40%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-card h2 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.alert-card p {
+  margin: 10px 0;
+}
+
+.alert-card button {
+  margin-top: 20px;
+  align-self: flex-end; /* Align the button to the right */
+}
