@@ -1,0 +1,83 @@
+[
+    {
+      "id": "6049dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Unsafe driving",
+      "vehicle_id": "cc70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Ramesh",
+      "vehicle_friendly_name": "KA12A3456",
+      "timestamp": "2023-03-01T04:25:45.424Z"
+    },
+    {
+      "id": "5149dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Distracted driver",
+      "vehicle_id": "dd70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Suresh",
+      "vehicle_friendly_name": "MH12A3456",
+      "timestamp": "2023-03-01T04:24:45.424Z"
+    },
+    {
+      "id": "7149dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Speeding",
+      "vehicle_id": "ee70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Priya",
+      "vehicle_friendly_name": "GJ12A3456",
+      "timestamp": "2023-03-01T04:23:45.424Z"
+    },
+    {
+      "id": "8249dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Harsh acceleration",
+      "vehicle_id": "ff70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Ankit",
+      "vehicle_friendly_name": "TN12A3456",
+      "timestamp": "2023-03-01T04:22:45.424Z"
+    },
+    {
+      "id": "9349dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Lane departure",
+      "vehicle_id": "gg70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Shreya",
+      "vehicle_friendly_name": "UP12A3456",
+      "timestamp": "2023-03-01T04:21:45.424Z"
+    },
+    {
+      "id": "a149dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Collision warning",
+      "vehicle_id": "hh70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Amit",
+      "vehicle_friendly_name": "DL12A3456",
+      "timestamp": "2023-03-01T04:20:45.424Z"
+    },
+    {
+      "id": "b149dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Fatigue driving",
+      "vehicle_id": "ii70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Pooja",
+      "vehicle_friendly_name": "HR12A3456",
+      "timestamp": "2023-03-01T04:19:45.424Z"
+    },
+    {
+      "id": "c149dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Sharp turn",
+      "vehicle_id": "jj70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Vikas",
+      "vehicle_friendly_name": "RJ12A3456",
+      "timestamp": "2023-03-01T04:18:45.424Z"
+    },
+    {
+      "id": "d149dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Following too closely",
+      "vehicle_id": "kk70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Deepika",
+      "vehicle_friendly_name": "BR12A3456",
+      "timestamp": "2023-03-01T04:17:45.424Z"
+    },
+    {
+      "id": "e149dbd2-45bc-4e34-9ea2-c82ced0279f1",
+      "alert_type": "Stop sign violation",
+      "vehicle_id": "ll70a7e5-8397-4914-bbbb-4d6bb521ec67",
+      "driver_friendly_name": "Raj",
+      "vehicle_friendly_name": "MP12A3456",
+      "timestamp": "2023-03-01T04:16:45.424Z"
+    }
+  ]
+  
