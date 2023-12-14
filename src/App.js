@@ -79,11 +79,12 @@ const App = () => {
   return (
     <div className="App">
       <h1>Alerts Dashboard</h1>
-      {showSearchResults ? (
-        <button onClick={() => setShowSearchResults(false)}>Back</button>
-      ) : (
-        <SearchBar onSearch={handleSearch} />
-      )}
+        {showSearchResults ? (
+      <button onClick={() => window.location.reload()}>Back (Refresh)</button>
+    ) : (
+  <SearchBar onSearch={handleSearch} />
+)}
+
       {showSearchResults ? (
         <div className="search-results">
           <h2>Search Results:</h2>
